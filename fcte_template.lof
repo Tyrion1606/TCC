@@ -1,0 +1,49 @@
+\babel@toc {brazil}{}\relax 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Aliasing na Transformada de Fourier de Sinais Amostrados}}{10}{figure.caption.4}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Representação esquemática do ciclo eletrocardiográfico, com identificação dos principais elementos.}}{16}{figure.caption.5}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Arquitetura funcional da plataforma de aquisição de sinais fisiológicos}}{29}{figure.caption.6}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Montagem do núcleo de aquisição e controle em placa perfurada}}{38}{figure.caption.8}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Montagem da camada de processamento e interface local do sistema}}{39}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Fluxo de aquisição, armazenamento e processamento dos dados}}{47}{figure.caption.10}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Montagem experimental utilizada nos ensaios de bancada}}{53}{figure.caption.11}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Configuração física final da plataforma}}{65}{figure.caption.14}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Interface de visualização ao vivo do software de aquisição}}{69}{figure.caption.15}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Amostragem de senoides de 100 e 450~Hz}}{73}{figure.caption.17}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Comparação temporal de senoides de 100 e 450~Hz}}{74}{figure.caption.18}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Senoides de 100 e 450~Hz no osciloscópio}}{75}{figure.caption.20}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Medições das senoides de 100 e 450~Hz}}{76}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Espectros das senoides de 100 e 450~Hz}}{78}{figure.caption.22}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Ondas quadradas de 5 e 50~Hz no domínio do tempo}}{82}{figure.caption.24}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Comparação temporal de ondas quadradas de 5 e 50~Hz}}{83}{figure.caption.25}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Espectros das ondas quadradas de 5 e 50~Hz}}{86}{figure.caption.28}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Harmônicas ímpares das ondas quadradas de 5 e 50~Hz}}{87}{figure.caption.29}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Configuração do gerador para sinais multitom e sinc}}{89}{figure.caption.31}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Visualização dos sinais multitom e sinc no osciloscópio}}{90}{figure.caption.32}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Sinal multitom adquirido e modelo de cinco tons}}{91}{figure.caption.33}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Medições automáticas do sinal multitom}}{92}{figure.caption.34}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Espectro do sinal multitom e componentes ajustadas}}{93}{figure.caption.35}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Amplitude relativa das componentes do sinal multitom}}{93}{figure.caption.36}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Representação temporal do sinal sinc e do modelo ajustado}}{96}{figure.caption.38}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Medições automáticas do sinal sinc no osciloscópio}}{97}{figure.caption.39}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Espectro do sinal sinc periódico}}{98}{figure.caption.41}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Amplitudes relativas das linhas espectrais do sinal sinc, utilizando a componente de aproximadamente 200~Hz como referência.}}{99}{figure.caption.42}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Aquisição simultânea dos sinais ECG e PPG}}{110}{figure.caption.48}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Comparação entre os sinais bruto e filtrado do ECG~1}}{111}{figure.caption.49}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Detecção dos picos R no primeiro canal de ECG}}{111}{figure.caption.50}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Template mediano do ECG~1 com candidatos às ondas cardíacas}}{112}{figure.caption.51}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Densidade espectral de potência do ECG~1}}{113}{figure.caption.52}%
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Comparação entre os sinais bruto e filtrado do ECG~2}}{115}{figure.caption.53}%
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Detecção dos picos R no segundo canal de ECG}}{115}{figure.caption.54}%
+\contentsline {figure}{\numberline {4.29}{\ignorespaces Template mediano do ECG~2 com candidatos morfológicos}}{116}{figure.caption.55}%
+\contentsline {figure}{\numberline {4.30}{\ignorespaces Densidade espectral de potência do ECG~2}}{117}{figure.caption.56}%
+\contentsline {figure}{\numberline {4.31}{\ignorespaces Comparação dos templates normalizados dos canais de ECG}}{118}{figure.caption.57}%
+\contentsline {figure}{\numberline {4.32}{\ignorespaces Comparação entre os sinais bruto e filtrado de PPG}}{119}{figure.caption.58}%
+\contentsline {figure}{\numberline {4.33}{\ignorespaces Detecção dos picos de pulso no sinal de PPG}}{120}{figure.caption.59}%
+\contentsline {figure}{\numberline {4.34}{\ignorespaces Template mediano do sinal de PPG}}{120}{figure.caption.60}%
+\contentsline {figure}{\numberline {4.35}{\ignorespaces Densidade espectral de potência do sinal de PPG}}{121}{figure.caption.61}%
+\contentsline {figure}{\numberline {4.36}{\ignorespaces Correspondência temporal entre os picos do ECG e do PPG}}{123}{figure.caption.62}%
+\addvspace {10\p@ }

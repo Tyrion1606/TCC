@@ -7,6 +7,7 @@
 % A formatação, pacotes, comandos auxiliares e ambientes estão definidos em fcte.cls.
 
 \usepackage{lipsum}
+\usepackage{needspace}
 
 % ------------------------------------------------------------------------------
 % Título
@@ -1442,32 +1443,69 @@ A STM32 Black Pill atuou como elemento central da camada de aquisição. O micro
 
 A camada de processamento foi constituída por uma Raspberry Pi 3 Model B+, equipada com cartão microSD de 64~GB. O microcomputador foi conectado a uma tela sensível ao toque de 7~polegadas, com resolução de 1024~$\times$~600 pixels. O sinal de imagem foi transmitido por HDMI, enquanto a interface de toque utilizou uma conexão USB. Essa configuração permitiu operar o programa localmente, sem a necessidade de manter um computador externo conectado ao sistema.
 
-A alimentação foi distribuída entre as duas camadas da plataforma. A Raspberry Pi foi alimentada por uma bateria externa, enquanto a STM32 recebeu alimentação por cabo USB. O ADS1256 e as telas foram alimentados a partir do conjunto de alimentação associado à STM32. A bateria utilizada possuía [INSERIR MODELO E CAPACIDADE DA BATERIA]. [ph caso queira colocar os dados do powerbank.]
+A alimentação foi distribuída entre as duas camadas da plataforma. Na montagem, a Raspberry Pi 3 Model B+ foi alimentada por um powerbank Peining WUP-939, com capacidade nominal de 20~Ah a 3,7~V, correspondente a 74~Wh, e saída USB de 5~V e até 2,1~A. A STM32 recebeu alimentação pela conexão USB utilizada para a comunicação com a Raspberry Pi, enquanto o ADS1256 e a tela TFT auxiliar foram alimentados pelo conjunto de alimentação associado à STM32.
 
-A Figura~\ref{fig:prototipo_final} apresenta a configuração física final da plataforma, incluindo o núcleo de aquisição em placa perfurada, a Raspberry Pi, as telas, os módulos de condicionamento, a bateria e as conexões entre os componentes.
+Para estimar o consumo do núcleo de aquisição, foram adotados os seguintes valores nominais aproximados de:
+
+\begin{itemize}
+    \item 30~mA em 3,3~V para a Black Pill;
+    \item 38~mW para o ADS1256;
+    \item 50~mA em 3,3~V para a tela TFT auxiliar;
+    \item 170~$\mu$A em 3,3~V para cada um dos dois módulos AD8232;
+    \item 4~mA em 5~V para o módulo de PPG.
+\end{itemize}
+
+Assim,
+
+\begin{equation}
+\begin{split}
+P_{\text{aquisição}} \approx {}&
+(3{,}3 \times 0{,}030)
++ 0{,}038
++ (3{,}3 \times 0{,}050)\\
+&+2(3{,}3 \times 170\times10^{-6})
++(5 \times 0{,}004)
+\approx 0{,}32~\mathrm{W}.
+\end{split}
+\end{equation}
+
+Como esse consumo é inferior a 1~W e representa aproximadamente 6\% da carga total estimada, sua influência sobre a autonomia é comparativamente irrelevante diante da Raspberry Pi e da tela principal.
+
+A Raspberry Pi 3 Model B+ apresenta consumo ativo típico próximo de 500~mA, correspondente a aproximadamente 2,5~W em 5~V. A tela principal de 7~polegadas consome aproximadamente 490~mA em 5~V, ou 2,45~W. Portanto,
+
+\begin{equation}
+P_{\mathrm{total}}
+\approx
+0{,}32 + 2{,}50 + 2{,}45
+=
+5{,}27~\mathrm{W}.
+\end{equation}
+
+Considerando a energia nominal do powerbank, a autonomia estimada é
+
+\begin{equation}
+t_{\mathrm{nominal}}
+=
+\frac{E_{\mathrm{nominal}}}{P_{\mathrm{total}}}
+=
+\frac{74~\mathrm{Wh}}{5{,}27~\mathrm{W}}
+\approx
+14{,}0~\mathrm{h}.
+\end{equation}
+
+Esse resultado deve ser entendido como uma estimativa nominal, pois a autonomia efetiva pode variar conforme o consumo médio do conjunto e as perdas de conversão de energia.
+
+O modelo WUP-939 não constitui requisito da arquitetura. Em aplicações futuras, ele pode ser substituído por um conjunto de baterias associado a um controlador de carga, desde que a solução forneça tensão estável e corrente suficiente para o funcionamento do sistema. Quando a portabilidade não for necessária, também pode ser utilizada uma fonte de alimentação USB compatível.
+
+A Figura~\ref{fig:prototipo_final} apresenta a configuração física final da plataforma, incluindo o núcleo de aquisição em placa perfurada, a Raspberry Pi, as duas telas, o powerbank e as conexões entre as camadas. Os módulos de condicionamento de ECG e PPG são conectados às entradas do núcleo de aquisição e não aparecem nessa fotografia.
 
 \begin{figure}[!htbp]
     \centering
-
-
-    % placeholder
-    \fbox{
-        \parbox[c][0.34\textheight][c]{0.88\textwidth}{
-            \centering
-            \textbf{PLACEHOLDER DA FOTOGRAFIA DO PROTÓTIPO FINAL}\\[0.5cm]
-
-            Inserir fotografia mostrando a placa perfurada, o ADS1256, a STM32,\\
-            a tela TFT auxiliar, a Raspberry Pi 3 B+, a tela de 7~polegadas,\\
-            os módulos de ECG e PPG, a bateria e as conexões.
-        }
-    }
-
-    % [ph Caso consiga terminar a montagem final a tempo. Só adicionar a imagem, apagar o placeholder e descomentar a linha de baixo. Se não ajusta essa parte pra ficar genérica mesmo.
-    % \includegraphics[width=0.88\textwidth]{figuras/prototipo_final.jpg}
-
-    \caption{Configuração física final da plataforma desenvolvida para aquisição, armazenamento, processamento e visualização de múltiplos sinais.}
+    \includegraphics[width=0.88\textwidth]{figuras/prototipo_final_plataforma_portatil.jpg}
+    \caption[Configuração física final da plataforma]{Configuração física final da plataforma. À esquerda, apresenta-se a tela sensível ao toque de 7~polegadas; na parte superior direita, o núcleo de aquisição em placa perfurada, composto pela STM32 Black Pill, pelo ADS1256 e pela tela TFT auxiliar; na parte inferior direita, a Raspberry Pi 3 Model B+; e, na parte inferior esquerda, o powerbank Peining WUP-939 utilizado para alimentação portátil.}
     \label{fig:prototipo_final}
 \end{figure}
+\FloatBarrier
 
 A configuração obtida manteve fisicamente separadas a camada de aquisição e a camada de processamento. Essa divisão permitiu concentrar na STM32 as operações relacionadas à leitura do conversor e à transmissão dos quadros, enquanto a Raspberry Pi permaneceu responsável pelas operações de interface, processamento e armazenamento. A inclusão ou a substituição de um módulo de entrada não exigiu alterações na organização principal do sistema, desde que o novo sinal permanecesse compatível com os limites elétricos e com a taxa de aquisição disponível.
 
@@ -1519,7 +1557,7 @@ A Figura~\ref{fig:interface_aquisicao} apresenta a página de visualização ao 
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=\textwidth]{figuras/print_aquisicao.png} [ph só se der, tira um print da tela do programa funcionando na raspberry e coloca aqui]
+    \includegraphics[width=\textwidth]{figuras/print_aquisicao.png}
     \caption[Interface de visualização ao vivo do software de aquisição]{Interface de visualização ao vivo do software de aquisição, com a apresentação de um sinal periódico no domínio do tempo e os controles de configuração, processamento e visualização do canal.}
     \label{fig:interface_aquisicao}
 \end{figure}
@@ -1540,75 +1578,74 @@ A separação entre visualização, processamento e armazenamento permitiu execu
 
 A configuração final foi constituída pela placa perfurada de aquisição, pelo módulo ADS1256, pela STM32 Black Pill, pela tela TFT auxiliar, pela Raspberry Pi 3 B+, pela tela principal de 7~polegadas, pelos módulos de condicionamento, pela bateria e pelos elementos de alimentação e conexão.
 
-As dimensões externas do conjunto foram de [INSERIR COMPRIMENTO]~cm por [INSERIR LARGURA]~cm por [INSERIR ALTURA]~cm. A massa total, considerando [INDICAR OS COMPONENTES INCLUÍDOS NA PESAGEM], foi de aproximadamente [INSERIR MASSA]~g. [ph se conseguir terminar a montagem dele completo, coloca as características aqui]
+As dimensões externas do conjunto foram de 20~cm por 15~cm por 5m. A massa total, considerando a caixa, o conjunto de aquisição composto pelo STM32 + Display + ADS1256, o PowerBank e a Raspberry pi, foi de aproximadamente 1~Kg.
 
 A Raspberry Pi utilizou um cartão microSD com capacidade de 64~GB, empregado tanto para o sistema operacional e para o programa quanto para o armazenamento das sessões. Como os arquivos HDF5 e CSV gerados nos registros de 30~s apresentaram tamanho médio próximo de 1,8~MB, o volume ocupado por uma sessão individual representou uma parcela reduzida da capacidade total disponível. A capacidade efetivamente destinada às aquisições, entretanto, foi inferior ao valor nominal do cartão devido ao espaço ocupado pelo sistema operacional, pelo programa e pelos demais arquivos da plataforma.
 
-O custo do sistema foi estimado com base no custo médio de reposição dos componentes. Para essa estimativa, foram considerados preços de componentes novos, iguais ou tecnicamente equivalentes aos utilizados no protótipo, observados entre outubro e dezembro de 2025. O valor atribuído a cada item correspondeu à média dos preços encontrados no período considerado, sem a inclusão dos custos de frete.
-
-A Tabela~\ref{tab:custo_plataforma} apresenta os valores utilizados na estimativa do custo de reposição da plataforma. [ph a gente fala no texto que era baixo custo, essa tabela é pra justificar isso. Caso não tenha ou não ache nescessário, troca isso por algo mais genérico]
+O custo de reposição da plataforma foi estimado a partir de preços de componentes novos ou equivalentes observados em lojas on-line, por exemplo, no Mercado Livre, em julho de 2026. Os valores da Tabela~\ref{tab:custo_plataforma} são apenas referências aproximadas e podem variar conforme vendedor, disponibilidade e frete.
 
 \begin{table}[!htbp]
     \centering
-    \caption{Custo médio de reposição dos componentes utilizados na plataforma, considerando preços observados entre outubro e dezembro de 2025.}
+    \caption{Estimativa de custo de reposição dos componentes da plataforma, com base em preços de lojas on-line em julho de 2026.}
     \label{tab:custo_plataforma}
     \small
     \begin{tabular}{p{7.0cm} c c}
         \hline
         \textbf{Componente} &
         \textbf{Quantidade} &
-        \textbf{Custo médio de reposição} \\
+        \textbf{Custo aproximado} \\
         \hline
 
         Módulo conversor ADS1256 &
         1 &
-        R\$~[INSERIR VALOR] \\
+        R\$~80,00 \\
 
         STM32 Black Pill com STM32F411 &
         1 &
-        R\$~[INSERIR VALOR] \\
+        R\$~50,00 \\
 
         Raspberry Pi 3 Model B+ &
         1 &
-        R\$~[INSERIR VALOR] \\
+        R\$~470,00 \\
 
         Tela sensível ao toque de 7~polegadas &
         1 &
-        R\$~[INSERIR VALOR] \\
+        R\$~250,00 \\
 
         Tela TFT auxiliar de 1,8~polegadas &
         1 &
-        R\$~[INSERIR VALOR] \\
+        R\$~50,00 \\
 
         Módulo AD8232 &
         2 &
-        R\$~[INSERIR VALOR TOTAL] \\
+        R\$~140,00 \\
 
         Pulse Sensor Amped &
         1 &
-        R\$~[INSERIR VALOR] \\
+        R\$~60,00 \\
 
         Bateria e elementos de alimentação &
         1 &
-        R\$~[INSERIR VALOR] \\
+        R\$~100,00 \\
 
         Cartão microSD de 64~GB &
         1 &
-        R\$~[INSERIR VALOR] \\
+        R\$~80,00 \\
 
         Placa perfurada, cabos, conectores e materiais auxiliares &
         -- &
-        R\$~[INSERIR VALOR] \\
+        R\$~100,00 \\
 
         \hline
-        \textbf{Custo total médio de reposição} &
+        \textbf{Custo total aproximado de reposição} &
         -- &
-        \textbf{R\$~[INSERIR VALOR TOTAL]} \\
+        \textbf{R\$~1.380,00} \\
         \hline
     \end{tabular}
 \end{table}
 
-A estimativa considerou apenas os componentes incorporados ao protótipo. Não foram incluídos os instrumentos de bancada utilizados nos ensaios, os custos de desenvolvimento, a mão de obra ou os custos associados à fabricação de uma estrutura mecânica definitiva. Dessa forma, o valor apresentado representa o custo aproximado de reposição do protótipo acadêmico, e não o custo de produção de uma versão comercial.
+\Needspace{5\baselineskip}
+A maior parcela da estimativa está na Raspberry Pi e na tela principal, que juntas representam aproximadamente 52\% do total. Em comparação, a STM32, o ADS1256, a tela auxiliar e os módulos de condicionamento possuem custo reduzido; os elementos de conexão e montagem têm participação ainda menor. Assim, o valor apresentado caracteriza a reposição aproximada do protótipo acadêmico, e não o custo de uma versão comercial.
 
 % ============================================================================
 \section{Resultados dos ensaios com sinais conhecidos}
@@ -3117,7 +3154,7 @@ A presença de componentes coincidentes com o sinal aplicado ao outro canal não
 
 A expansão para outros sinais fisiológicos foi prevista na arquitetura, mas não foi demonstrada experimentalmente além do ECG e do PPG. O quarto canal incluiu uma informação auxiliar de temperatura no arquivo analisado, mas esse dado não foi submetido a uma avaliação funcional equivalente àquela realizada para os demais sinais.
 
-Por fim, as dimensões, a massa, a autonomia da bateria e o custo médio de reposição ainda devem ser consolidados para permitir uma avaliação quantitativa completa da portabilidade e do baixo custo. A montagem em placa perfurada foi adequada ao protótipo acadêmico, mas uma versão destinada a uso fora de bancada exigiria placa de circuito impresso, estrutura mecânica, conectores protegidos e avaliação adicional de segurança elétrica.
+Por fim, as dimensões, a massa e a autonomia da bateria ainda devem ser consolidadas para permitir uma avaliação quantitativa completa da portabilidade. A montagem em placa perfurada foi adequada ao protótipo acadêmico, mas uma versão destinada a uso fora de bancada exigiria placa de circuito impresso, estrutura mecânica, conectores protegidos e avaliação adicional de segurança elétrica.
 
 
 \chapter{Conclusão}

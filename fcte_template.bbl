@@ -1,0 +1,252 @@
+\begin{thebibliography}{10}
+
+\bibitem{ates2022wearable_sensors}
+H.~Ceren Ates, Peter~Q. Nguyen, Laura Gonzalez-Macia, Eden Morales-Narv{\'a}ez, Firat G{\"u}der, James~J. Collins, e Can Dincer.
+\newblock End-to-end design of wearable sensors.
+\newblock {\em Nature Reviews Materials}, 7:887--907, 2022.
+
+\bibitem{vaghasiya2023wearable_telehealth}
+Jayraj~V. Vaghasiya, Carmen~C. Mayorga-Martinez, e Martin Pumera.
+\newblock Wearable sensors for telehealth based on emerging materials and nanoarchitectonics.
+\newblock {\em npj Flexible Electronics}, 7(1):26, 2023.
+
+\bibitem{kwon2021sleep_monitoring_wearables}
+Shinjae Kwon, Hyunwoo Kim, e W.~Hong Yeo.
+\newblock Recent advances in wearable sensors and portable electronics for sleep monitoring.
+\newblock {\em iScience}, 24(5):102461, 2021.
+
+\bibitem{osa2025sleep_apnea_wearables}
+Ainhoa Osa-Sanchez, Javier Ramos-Martinez-de Soria, Amaia Mendez-Zorrilla, Ibon Oleagordia~Ruiz, e Begonya Garcia-Zapirain.
+\newblock Wearable sensors and artificial intelligence for sleep apnea detection: A systematic review.
+\newblock {\em Journal of Medical Systems}, 49:66, 2025.
+
+\bibitem{hughes2023wearable_cardiovascular}
+Andrew Hughes, Md~Mobashir~Hasan Shandhi, Hiral Master, Jessilyn Dunn, e Evan~L. Brittain.
+\newblock Wearable devices in cardiovascular medicine.
+\newblock {\em Circulation Research}, 132(5):652--670, 2023.
+
+\bibitem{charlton2022wearable_ppg}
+Peter~H. Charlton, Panicos~A. Kyriacou, Jonathan Mant, Vaidotas Marozas, Phil Chowienczyk, e Jordi Alastruey.
+\newblock Wearable photoplethysmography for cardiovascular monitoring.
+\newblock {\em Proceedings of the IEEE}, 110(3):355--381, 2022.
+
+\bibitem{tan2024remote_patient_monitoring}
+Si~Ying Tan, Jennifer Sumner, Yuchen Wang, e Alexander~Wenjun Yip.
+\newblock A systematic review of the impacts of remote patient monitoring (rpm) interventions on safety, adherence, quality-of-life and cost-related outcomes.
+\newblock {\em npj Digital Medicine}, 7:192, 2024.
+
+\bibitem{peyroteo2021remote_monitoring_chronic}
+Mariana Peyroteo, In{\^e}s~Augusto Ferreira, Lu{\'i}s~Brito Elvas, Jo{\~a}o~Carlos Ferreira, e Lu{\'i}s~Velez Lap{\~a}o.
+\newblock Remote monitoring systems for patients with chronic diseases in primary health care: Systematic review.
+\newblock {\em JMIR mHealth and uHealth}, 9(12):e28285, 2021.
+
+\bibitem{mayo2024holter}
+{Mayo Clinic}.
+\newblock Holter monitor.
+\newblock \url{https://www.mayoclinic.org/tests-procedures/holter-monitor/about/pac-20385039}, April 2024.
+\newblock Acesso em: 7 jul. 2026.
+
+\bibitem{lee2024abpm}
+Eun~Mi Lee.
+\newblock When and how to use ambulatory blood pressure monitoring and home blood pressure monitoring for managing hypertension.
+\newblock {\em Clinical Hypertension}, 30:10, 2024.
+
+\bibitem{thomsen2024abpm_frequency}
+Martin~B. Thomsen, Jakob Nyvad, Kent~L. Christensen, Mark Reinhard, e Niels~Henrik Buus.
+\newblock High versus low measurement frequency during 24-h ambulatory blood pressure monitoring: a randomized crossover study.
+\newblock {\em Journal of Human Hypertension}, 38:146--154, 2024.
+
+\bibitem{jamieson2025consumer_wearables}
+Alexandra Jamieson, Timothy J.~A. Chico, Siana Jones, Nishi Chaturvedi, Alun~D. Hughes, e Michele Orini.
+\newblock A guide to consumer-grade wearables in cardiovascular clinical care and population health for non-experts.
+\newblock {\em npj Cardiovascular Health}, 2:44, 2025.
+
+\bibitem{huhn2022wearables_health_research}
+Sophie Huhn, Mona Axt, Hanns-Christian Gunga, Martina~A. Maggioni, Stephen Munga, David Obor, Ali Si{\'e}, Val{\'e}rie Boudo, Anita Bunker, Rainer Sauerborn, Till B{\"a}rnighausen, e Sandra Barteit.
+\newblock The impact of wearable technologies in health research: Scoping review.
+\newblock {\em JMIR mHealth and uHealth}, 10(1):e34384, 2022.
+
+\bibitem{canali2022wearables_challenges}
+Stefano Canali, Viola Schiaffonati, e Andrea Aliverti.
+\newblock Challenges and recommendations for wearable devices in digital health: Data quality, interoperability, health equity, fairness.
+\newblock {\em PLOS Digital Health}, 1(10):e0000104, 2022.
+
+\bibitem{piaui_espera_consultas_2025}
+{Governo do Estado do Piauí}.
+\newblock Piauí é o estado do brasil com menor tempo de espera em filas para atendimento no sus.
+\newblock \url{https://www.pi.gov.br/piaui-e-o-estado-do-brasil-com-menor-tempo-de-espera-em-filas-para-atendimento-no-sus/}, March 2025.
+\newblock Página oficial do Governo do Estado do Piauí com dados de 2024 baseados em levantamento com dados do Ministério da Saúde.
+
+\bibitem{tcmsp_fila_exames_2025}
+{Tribunal de Contas do Município de São Paulo}.
+\newblock Tcmsp solicita informações sobre a fila de espera para exames, em especial voltados à saúde da mulher.
+\newblock \url{https://portal.tcm.sp.gov.br/Pagina/77205}, April 2025.
+\newblock Página oficial do TCMSP sobre a fila de exames na rede pública paulistana.
+
+\bibitem{devi2020realtimedaq}
+Dharmavaram~Asha Devi, Tirumala Satya, e L.~Sai Sugun.
+\newblock Design and implementation of real time data acquisition system using reconfigurable soc.
+\newblock {\em International Journal of Advanced Computer Science and Applications}, 11(9), 2020.
+
+\bibitem{abedi2025ai_cardiovascular_wearables}
+Ali Abedi, Anshul Verma, Dherya Jain, Jathushan Kaetheeswaran, C.~Chui, Milad Lankarany, e Shehroz~S. Khan.
+\newblock Ai-driven real-time monitoring of cardiovascular conditions with wearable devices: Scoping review.
+\newblock {\em JMIR mHealth and uHealth}, 13:e73846, 2025.
+
+\bibitem{anvisa_guia38}
+{Agência Nacional de Vigilância Sanitária}.
+\newblock Guia 38: Princípios e práticas de cibersegurança em dispositivos médicos.
+\newblock \url{https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2020/saiba-mais-sobre-ciberseguranca-em-dispositivos-medicos/guia-38.pdf/view}, 2020.
+\newblock Guia oficial da Anvisa.
+
+\bibitem{anvisa_manual2026}
+{Agência Nacional de Vigilância Sanitária}.
+\newblock Manual para regularização de equipamento médico e software como dispositivo médico na anvisa, versão 1.3.
+\newblock \url{https://www.gov.br/anvisa/pt-br/centraisdeconteudo/publicacoes/produtos-para-a-saude/manuais/manual-regularizacao-gquip/view}, 2026.
+\newblock Página oficial atualizada em 12/01/2026.
+
+\bibitem{lgpd_planalto}
+{Brasil}.
+\newblock Lei n\textsuperscript{o} 13.709, de 14 de agosto de 2018 (lei geral de proteção de dados pessoais).
+\newblock \url{https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm}, 2018.
+\newblock Texto legal oficial no Portal do Planalto.
+
+\bibitem{anvisa_rdc657_qa}
+{Agência Nacional de Vigilância Sanitária}.
+\newblock Perguntas e respostas sobre a rdc 657/2022.
+\newblock \url{https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2022/software-como-dispositivo-medico-perguntas-e-respostas/perguntas-respostas-rdc-657-de-2022-v1-01-09-2022.pdf/view}, 2022.
+\newblock Documento de esclarecimento sobre software como dispositivo médico.
+
+\bibitem{kester2008mt002}
+Walt Kester.
+\newblock {\em MT-002 Tutorial: What the Nyquist Criterion Means to Your Sampled Data System Design}.
+\newblock Analog Devices, 2008.
+\newblock Tutorial técnico, Rev. A, 10/08.
+
+\bibitem{kester2008mt001}
+Walt Kester.
+\newblock {\em MT-001 Tutorial: Taking the Mystery out of the Infamous Formula, ``SNR = 6.02N + 1.76dB,'' and Why You Should Care}.
+\newblock Analog Devices, 2008.
+\newblock Tutorial técnico, Rev. A, 10/08.
+
+\bibitem{chu2023ecgsystem}
+Huiyan Chu, Wei Zhen, Hai Wang, e Yuanfei Wan.
+\newblock Ecg signal acquisition and processing system.
+\newblock {\em Journal of Physics: Conference Series}, 2644(1):012009, November 2023.
+
+\bibitem{raus2025ecg_testing}
+Elzbieta Raus-Jarzabek, Marek Czerw, Andrzej Skowronek, Agnieszka D{\k{a}}browska-Boruch, Ernest Jamro, e Elzbieta Olejarczyk.
+\newblock A practical guide to ecg device performance testing according to international standards.
+\newblock {\em Electronics}, 14(19):3878, 2025.
+
+\bibitem{su2023ecg_acquisition}
+Shi Su, Zhihong Zhu, Shu Wan, Fangqing Sheng, Tianyi Xiong, Shanshan Shen, Yu~Hou, Cuihong Liu, Yijin Li, Xiaolin Sun, e Jian Huang.
+\newblock An ecg signal acquisition and analysis system based on machine learning with model fusion.
+\newblock {\em Sensors}, 23(17):7643, 2023.
+
+\bibitem{beres2021ppg_sampling}
+Szabolcs B{\'e}res e L{\'a}szl{\'o} Hejjel.
+\newblock The minimal sampling frequency of the photoplethysmogram for accurate pulse rate variability parameters in healthy volunteers.
+\newblock {\em Biomedical Signal Processing and Control}, 68:102589, 2021.
+
+\bibitem{ardeti2023ecg}
+Venkata~Anuhya Ardeti, Venkata~Ratnam Kolluru, George~Tom Varghese, e Rajesh~Kumar Patjoshi.
+\newblock An overview on state-of-the-art electrocardiogram signal processing methods: Traditional to ai-based approaches.
+\newblock {\em Expert Systems with Applications}, 217:119561, 2023.
+
+\bibitem{das2014ecg}
+M.~K. Das e S.~Ari.
+\newblock Ecg beats classification using mixture of features.
+\newblock {\em International Scholarly Research Notices}, 2014:178436, 2014.
+
+\bibitem{allen2007ppg}
+John Allen.
+\newblock Photoplethysmography and its application in clinical physiological measurement.
+\newblock {\em Physiological Measurement}, 28(3):R1--R39, 2007.
+
+\bibitem{chan2013pulseox}
+Edward~D. Chan, Michael~M. Chan, e Mallory~M. Chan.
+\newblock Pulse oximetry: Understanding its basic principles facilitates appreciation of its limitations.
+\newblock {\em Respiratory Medicine}, 107(6):789--799, 2013.
+
+\bibitem{boano2011temperature}
+Carlo~Alberto Boano, Matteo Lasagni, Kay R{\"o}mer, e Tanja Lange.
+\newblock Accurate temperature measurements for medical research using body sensor networks.
+\newblock In {\em 2011 14th IEEE International Symposium on Object/Component/Service-Oriented Real-Time Distributed Computing Workshops}, pages 189--198, 2011.
+
+\bibitem{vitazkova2024resp}
+Diana Vitazkova, Erik Foltan, Helena Kosnacova, Michal Micjan, Martin Donoval, Anton Kuzma, Martin Kopani, e Erik Vavrinsky.
+\newblock Advances in respiratory monitoring: A comprehensive review of wearable and remote technologies.
+\newblock {\em Biosensors}, 14(2):90, 2024.
+
+\bibitem{al_ayyad2023emg_rehabilitation}
+Mahmoud Al-Ayyad, Hisham~Abu Owida, Roberto De~Fazio, Bassam Al-Naami, e Paolo Visconti.
+\newblock Electromyography monitoring systems in rehabilitation: A review of clinical applications, wearable devices and signal acquisition methodologies.
+\newblock {\em Electronics}, 12(7):1520, 2023.
+
+\bibitem{cheng2023flexible_semg}
+Lang Cheng, Xiaoyan Wang, Dawei Yang, Rui Li, Xiaosong Zhou, Xiaojun Liu, e Xiaohong Zhang.
+\newblock Recent advances in flexible noninvasive electrodes for surface electromyography acquisition.
+\newblock {\em npj Flexible Electronics}, 7:39, 2023.
+
+\bibitem{analogdevices_ad8232}
+{Analog Devices}.
+\newblock {\em AD8232: Single-Lead, Heart Rate Monitor Front End}.
+\newblock Analog Devices, 2020.
+\newblock Data Sheet, Rev. D.
+
+\bibitem{worldfamous_pulsesensor_amped}
+{World Famous Electronics}.
+\newblock Pulse sensor amped: Open hardware and technical documentation.
+\newblock \url{https://pulsesensor.com/pages/open-hardware}, 2026.
+\newblock Documentação oficial do circuito, características elétricas e princípio de funcionamento.
+
+\bibitem{ti_ads1256}
+{Texas Instruments}.
+\newblock {\em ADS1256 24-Bit Analog-to-Digital Converter (ADC)}.
+\newblock Texas Instruments, 2021.
+\newblock Datasheet, Rev. C.
+
+\bibitem{st_stm32_modelo}
+{STMicroelectronics}.
+\newblock {STM32F411xC/STM32F411xE: Arm Cortex-M4 32-bit MCU with FPU, 512 kB Flash and 128 kB RAM}.
+\newblock Datasheet DS10314, revisão 8, 2024.
+\newblock Acesso em: 25 mai. 2026.
+
+\bibitem{raspberrypi3_modelo}
+{Raspberry Pi Ltd}.
+\newblock {Raspberry Pi 3 Model B+ Product Brief}.
+\newblock Documentação técnica oficial do produto, 2018.
+\newblock Acesso em: 25 mai. 2026.
+
+\bibitem{waveshare_7inch_lcd_c}
+{Waveshare}.
+\newblock {7inch HDMI LCD (C): User Manual}.
+\newblock Documentação técnica oficial, 2026.
+\newblock Tela de 7 polegadas, resolução de 1024 por 600 pixels, entrada HDMI e toque por USB. Acesso em: 25 mai. 2026.
+
+\bibitem{politerm_pol40_manual}
+{Politerm}.
+\newblock {Manual de operação do gerador de funções POL-40}.
+\newblock Manual técnico do equipamento, 2025.
+\newblock Acesso em: 10 jul. 2026.
+
+\bibitem{minipa_mvb_dso_manual}
+{Minipa Electric}.
+\newblock {Osciloscópio digital MVB-DSO: manual de instruções}.
+\newblock Manual técnico do equipamento, 2026.
+\newblock Acesso em: 10 jul. 2026.
+
+\bibitem{firmware_blackpill_ads1256}
+Davi~M. ALVES e Álex A. de~P. FERREIRA.
+\newblock blackpill\_ads1256-display: firmware modular para aquisição com stm32f411 e ads1256.
+\newblock Repositório de código-fonte no GitHub, 2026.
+\newblock Acesso em: 3 jul. 2026.
+
+\bibitem{software_processamento_biomedico}
+Álex A. de~P. FERREIRA e Davi~M. ALVES.
+\newblock processamento\_biomedico: sistema de processamento de sinais biomédicos.
+\newblock Repositório de código-fonte no GitHub, 2026.
+\newblock Acesso em: 3 jul. 2026.
+
+\end{thebibliography}

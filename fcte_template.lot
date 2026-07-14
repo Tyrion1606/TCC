@@ -1,0 +1,24 @@
+\babel@toc {brazil}{}\relax 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {2.1}{\ignorespaces Requisitos típicos de aquisição para os sinais fisiológicos considerados na plataforma}}{23}{table.2.1}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Principais componentes de hardware utilizados no sistema.}}{35}{table.caption.7}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Pares de sinais conhecidos adquiridos nos ensaios de bancada.}}{54}{table.caption.12}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Organização dos registros utilizados na avaliação experimental.}}{61}{table.caption.13}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Estimativa de custo de reposição dos componentes da plataforma, com base em preços de lojas on-line em julho de 2026.}}{70}{table.caption.16}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Métricas no domínio do tempo para as senoides de 100~Hz e 450~Hz.}}{74}{table.caption.19}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Métricas no domínio da frequência para as senoides de 100~Hz e 450~Hz.}}{79}{table.caption.23}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Principais métricas no domínio do tempo para as ondas quadradas de 5~Hz e 50~Hz.}}{84}{table.caption.26}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces Comparação entre as principais métricas das ondas quadradas obtidas pelo sistema e pelo osciloscópio.}}{85}{table.caption.27}%
+\contentsline {table}{\numberline {4.7}{\ignorespaces Frequências e amplitudes relativas das primeiras harmônicas ímpares das ondas quadradas.}}{86}{table.caption.30}%
+\contentsline {table}{\numberline {4.8}{\ignorespaces Componentes principais identificadas no sinal multitom.}}{94}{table.caption.37}%
+\contentsline {table}{\numberline {4.9}{\ignorespaces Comparação das principais métricas temporais do sinal sinc.}}{97}{table.caption.40}%
+\contentsline {table}{\numberline {4.10}{\ignorespaces Componentes espectrais do sinal sinc periódico.}}{99}{table.caption.43}%
+\contentsline {table}{\numberline {4.11}{\ignorespaces Síntese das principais métricas obtidas nos ensaios com sinais conhecidos.}}{102}{table.caption.44}%
+\contentsline {table}{\numberline {4.12}{\ignorespaces Taxa efetiva e distribuição dos intervalos entre quadros nas sessões analisadas.}}{105}{table.caption.45}%
+\contentsline {table}{\numberline {4.13}{\ignorespaces Continuidade temporal das sessões utilizadas na avaliação da aquisição.}}{106}{table.caption.46}%
+\contentsline {table}{\numberline {4.14}{\ignorespaces Síntese do desempenho temporal da aquisição nos ensaios realizados.}}{108}{table.caption.47}%
+\contentsline {table}{\numberline {4.15}{\ignorespaces Síntese funcional dos sinais fisiológicos adquiridos.}}{124}{table.caption.63}%
+\addvspace {10\p@ }
