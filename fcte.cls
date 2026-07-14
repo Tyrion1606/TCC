@@ -23,6 +23,7 @@
 % -----------------------------------------------------------------------------
 % 2. Pacotes
 % -----------------------------------------------------------------------------
+\RequirePackage[T1]{fontenc}
 \RequirePackage[brazil]{babel}
 \RequirePackage{pdfpages}
 \RequirePackage{graphicx}
